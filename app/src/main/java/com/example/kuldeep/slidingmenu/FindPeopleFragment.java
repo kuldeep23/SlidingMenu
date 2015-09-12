@@ -33,7 +33,7 @@ public class FindPeopleFragment extends ActionBarActivity  implements ActionBar.
         viewPager=(ViewPager) v.findViewById(R.id.pager);
 
 
-        actionBar = getSupportActionBar();
+        actionBar =ActionBar();
         mAdapter = new TabsPagerAdapter(getSupportFragmentManager());
 
         viewPager.setAdapter(mAdapter);
