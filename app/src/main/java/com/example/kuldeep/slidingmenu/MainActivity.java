@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     // used to store app title
     private CharSequence mTitle;
 
-    // slide menu items
+    // slide menu i
     private String[] navMenuTitles;
     private TypedArray navMenuIcons;
 
